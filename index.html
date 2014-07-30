@@ -1,1 +1,49 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lynt</title>
+  <script src='js/lib/jquery-1.11.1.min.js'></script>
+  <script src='js/lib/underscore-min.js'></script>
+  <script src='js/lib/backbone-min.js'></script>
+  <script src='js/lib/handlebars-v1.3.0.js'></script>
+  <script src='js/app/models/project.js'></script>
+  <script src='js/app/router/router.js'></script>
+  <script src='js/app/collections/projects.js'></script>
+  <script src='js/app/views/project.js'></script>
+  <script src='js/app/views/projectList.js'></script>
+  <script src='js/app/views/app.js'></script>
+  <script src='js/portfolio.js'></script>
+  <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+  <h1>Works by Lynt</h1>
+  <div id='main'>
+
+  </div>
+
+  <script type='text/handlebars-template' id='app-template'></script>
+  <script type='text/handlebars-template' id='project-list-template'></script>
+  <script type='text/handlebars-template' id='project-template'>
+    <article>
+      <h2>{{title}}</h2>
+      <h3><a href="{{link}}">{{link}}</a></h3>
+      <img src="{{imageLarge}}" alt="{{title}}">
+      <p>{{summary}}</p>
+      <p>{{detail}}</p>
+      <ul>{{builtWith}}</ul>
+      <ul>{{collaborators}}</ul>
+    </article>
+  </script>
+  <script type='text/handlebars-template' id='bio-template'></script>
+  <script type='text/handlebars-template' id='contact-template'></script>
+</body>
+</html>
