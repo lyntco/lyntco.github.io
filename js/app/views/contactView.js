@@ -1,7 +1,9 @@
 var app = app || {};
 
 app.ContactView = Backbone.View.extend({
-  tagName: '',
+  el: '#main',
   initialize: function(){},
-  render: function(){}
+  render: function(){
+    this.$el.html( app.templates.contactView )
+  }
 });

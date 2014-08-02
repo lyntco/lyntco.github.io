@@ -1,11 +1,13 @@
 var app = app || {};
 
 app.Project = Backbone.Model.extend({
+  urlRoot: '/projects',
   defaults: {
     title: 'Project',
     link: '#',
-    imageLarge: '/images/project.jpg',
-    imageThumb: '/images/project_thumb.jpg',
+    imageLarge: '/images/project01.jpg',
+    imageThumb: '/images/project01_thumb.jpg',
+    images: ['/images/project01_01.jpg','/images/project01_02.jpg'],
     summary: 'This is a project',
     detail: 'This is a detailed description of this Project',
     builtWith: ['Backbonejs', 'Handlebars', 'Javascript','Hosted by Github.io'],
