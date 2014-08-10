@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+/* line 4, /Users/straw/projects/wdi-5/05-backbone/ghpage_working/source/stylesheets/portfolio.css.scss */
+html {
+  /*background-color: #999;*/
+  font-family: 'Droid Sans', sans-serif; }
+
+/* line 9, /Users/straw/projects/wdi-5/05-backbone/ghpage_working/source/stylesheets/portfolio.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif; }
+
+/* line 13, /Users/straw/projects/wdi-5/05-backbone/ghpage_working/source/stylesheets/portfolio.css.scss */
+body {
+  max-width: 960px;
+  margin: auto; }
+
+/* line 18, /Users/straw/projects/wdi-5/05-backbone/ghpage_working/source/stylesheets/portfolio.css.scss */
+li {
+  list-style: none; }
+
+/* line 22, /Users/straw/projects/wdi-5/05-backbone/ghpage_working/source/stylesheets/portfolio.css.scss */
+nav ul li {
+  display: inline-block; }
+
+/* line 30, /Users/straw/projects/wdi-5/05-backbone/ghpage_working/source/stylesheets/portfolio.css.scss */
+.project-link:hover {
+  text-decoration: underline;
+  cursor: pointer; }
+
+/*tagName: "input[type='text']"
+*/
