@@ -21,13 +21,16 @@
       </svg>
       <ul>
         <li>
-          <a class='navlink' href='#projects'>Projects</a>
+          <a class='navlink' href='#web'>Web</a>
         </li>
         <li>
           <a class='navlink' href='#bio'>Bio</a>
         </li>
         <li>
           <a class='navlink' href='#contact'>Contact</a>
+        </li>
+        <li>
+          <a class='navlink' href='http://blog.lynt.co' target='_blank'>Blog</a>
         </li>
       </ul>
     </nav>
@@ -48,63 +51,83 @@
       
     </div>
     <script id='app-template' type='text/template'>
-      <div id='my-projects'>
-        <h1>PROJECTS</h1>
-      </div>
+      <div id='my-projects'></div>
     </script>
     <script id='project-list-template' type='text/template'>
       <ul class='project-link'>
         <li>
-          <img alt='' src='http://placehold.it/300x200'>
+          <img alt='{{title}}' src='{{imageThumb}}'>
         </li>
         <li>
-          <h3>{{ title }}</h3>
+          <h2>{{ title }}</h2>
+          <h3>{{ summary }}</h3>
         </li>
       </ul>
     </script>
     <script id='project-template' type='text/template'>
       <div id='project'>
-        <img alt='{{ title }}' src='http://placehold.it/200x400'>
+        <img alt='{{ title }}' src='{{imageLarge}}'>
         <div class='info'>
           <h2>{{ title }}</h2>
           <h3>
             <a href='{{ link }}'>{{ link }}</a>
-            <p>{{ summary }}</p>
-            <p>{{ detail }}</p>
-            <h3>Built with:</h3>
-            <ul class='built-with'>
-              {{#each builtWith }}
-              <li>{{ this }}</li>
-              {{/each }}
-            </ul>
           </h3>
+          <h3>{{ summary }}</h3>
+          <p>{{{ detail }}}</p>
+          <h3>Built with:</h3>
+          <ul class='built-with'>
+            {{#each builtWith }}
+            <li>{{ this }}</li>
+            {{/each }}
+          </ul>
+          {{#if collaborators}}
+          <h3>Team:</h3>
+          <ul>
+            {{#each collaborators }}
+            <li>
+              <a href='{{link}}'>{{ name }}</a>
+            </li>
+            {{/each }}
+          </ul>
+          {{/if}}
+          {{#if images}}
+          <ul class='more-images'>
+            {{#each images }}
+            <li>
+              <img src="/images/{{this}}" />
+            </li>
+            {{/each }}
+          </ul>
+          {{/if}}
         </div>
       </div>
     </script>
     <script id='bio-template' type='text/template'>
       <div id='bio'>
-        <h2>About me</h2>
+        <h2>I'm Larlyn Tanasap! I'm a full stack developer.</h2>
         <p>
-          I'm Larlyn Tanasap! I'm a full stack developer.
+          I love problem solving and building things - I code, draw, design, make costumes, do photography, among other things. After attending a few Arduino workshops, I now have a keen interesting in programming hardware!
         </p>
         <p>
-          Studied Web Development Immersive at General Assembly Sydney in 2014 and Graphic Design at Design Centre Enmore ending in 2012.
+          I'm currently into making single page web apps with JavaScript MVCs and PhoneGap.
         </p>
         <p>
-          In 2013, I worked in Walt Disney World as a Character performer.
+          I studied Web Development Immersive at General Assembly Sydney in 2014 and Graphic Design at Design Centre Enmore ending in 2012.
+        </p>
+        <p>
+          In 2013, I worked in Walt Disney World in Orlando, Florida as a Character performer.
         </p>
         <h3>Skills:</h3>
         <ul id='skills-list'>
-          <li>Ruby on Rails</li>
-          <li>Javascript</li>
-          <li>Coffeescript</li>
-          <li>HTML5/CSS3</li>
-          <li>HAML</li>
-          <li>SASS</li>
-          <li>Backbonejs</li>
-          <li>Angularjs</li>
-          <li>Twitter Bootstrap</li>
-          <li>PhoneGap</li>
+          <li><a href="http://rubyonrails.org/">Ruby on Rails</a></li>
+          <li><a href="https://developer.mozilla.org/en/docs/Web/JavaScript">Javascript</a></li>
+          <li><a href="http://coffeescript.org">Coffeescript</a></li>
+          <li><a href="http://www.w3.org/TR/html5/">HTML5/CSS3</a></li>
+          <li><a href="http://haml.info/">HAML</a></li>
+          <li><a href="http://sass-lang.com/">Sass</a></li>
+          <li><a href="http://backbonejs.org/">Backbonejs</a></li>
+          <li><a href="http://getbootstrap.com/">Twitter Bootstrap</a></li>
+          <li><a href="http://phonegap.com/">PhoneGap</a></li>
         </ul>
       </div>
     </script>
@@ -114,13 +137,24 @@
         <p>You can find me at the following places:</p>
         <ul id='contact-list'>
           <li>
-            <a href='http://github.com/lyntco'>Github</a>
+            <a href='http://github.com/lyntco'>
+              <img src="/images/github.svg" />
+            </a>
           </li>
           <li>
-            <a href='http://blog.lynt.co'>Blog</a>
+            <a href='http://au.linkedin.com/in/lyntco/'>
+              <img src="/images/linkedin.svg" />
+            </a>
           </li>
           <li>
-            <a href='http://twitter.com/strawz'>Twitter</a>
+            <a href='http://blog.lynt.co'>
+              <img src="/images/tumblr.svg" />
+            </a>
+          </li>
+          <li>
+            <a href='http://twitter.com/strawz'>
+              <img src="/images/twitter.svg" />
+            </a>
           </li>
         </ul>
         <h3>Want to grab a coffee?</h3>
