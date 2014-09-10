@@ -71,9 +71,11 @@
           <h2>
             <a href='{{ link }}'>{{ title }}</a>
           </h2>
-          <h3>{{ summary }}</h3>
-          <p>{{{ detail }}}</p>
-          <h3>Built with:</h3>
+          <div class='text'>
+            <h3>{{ summary }}</h3>
+            <p>{{{ detail }}}</p>
+            <h3>Built with:</h3>
+          </div>
           <ul class='built-with'>
             {{#each builtWith }}
             <li>{{ this }}</li>
@@ -103,7 +105,9 @@
     </script>
     <script id='bio-template' type='text/template'>
       <div id='bio'>
-        <h2>I'm Larlyn Tanasap! I'm a full stack developer.</h2>
+        <img src="/images/me.jpg" />
+        <h2>I'm Larlyn Tanasap!</h2>
+        <h2>I'm a full stack developer.</h2>
         <p>
           I love problem solving and building things - I code, draw, design, make costumes, do photography, among other things. After attending a few Arduino workshops, I now have a keen interesting in programming hardware!
         </p>
@@ -133,31 +137,31 @@
     </script>
     <script id='contact-template' type='text/template'>
       <div id='contact'>
-        <h2>Contact me!</h2>
+        <h2 class='highlight'>Contact me!</h2>
         <p>You can find me at the following places:</p>
         <ul id='contact-list'>
           <li>
-            <a href='http://github.com/lyntco'>
+            <a href='http://github.com/lyntco' target='_blank'>
               <img src="/images/github.svg" />
             </a>
           </li>
           <li>
-            <a href='http://au.linkedin.com/in/lyntco/'>
+            <a href='http://au.linkedin.com/in/lyntco/' target='_blank'>
               <img src="/images/linkedin.svg" />
             </a>
           </li>
           <li>
-            <a href='http://blog.lynt.co'>
+            <a href='http://blog.lynt.co' target='_blank'>
               <img src="/images/tumblr.svg" />
             </a>
           </li>
           <li>
-            <a href='http://twitter.com/strawz'>
+            <a href='http://twitter.com/strawz' target='_blank'>
               <img src="/images/twitter.svg" />
             </a>
           </li>
         </ul>
-        <h3>Want to grab a coffee?</h3>
+        <h3 class='highlight'>Want to grab a coffee?</h3>
         <p>You can reach me at</p>
         <p>0432 871 070</p>
         <p>or</p>
