@@ -29,7 +29,7 @@ github:
   username: lyntco # change to your GitHub username
 
 twitter:
-  username: strawdoll # change to your Twitter username
+  username: strawdoll_ # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: strawww@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/strawdoll # change to your Twitter homepage
+    - https://twitter.com/strawdoll_ # change to your Twitter homepage
     - https://github.com/lyntco # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
