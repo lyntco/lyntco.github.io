@@ -1,0 +1,17 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+@media (prefers-color-scheme: light) {
+    html[data-mode=dark] {
+      --main-bg: rgb(39 37 42);
+    }
+  }
