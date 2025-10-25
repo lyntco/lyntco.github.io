@@ -10,10 +10,20 @@
 
 /* append your custom style below */
 
+/* FOR LIGHT THEME */
+@media (prefers-color-scheme: light) {
+    html:not([data-mode]), html[data-mode=light] {
+      --link-color: rgb(244 52 150);
+      --toc-highlight: rgb(255 94 163);
+    }
+  }
+
+/* FOR DARK THEME */
 @media (prefers-color-scheme: light) {
     html[data-mode=dark] {
       --main-bg: rgb(39 37 42);
       --link-color: rgb(244 52 150);
       --sidebar-bg: #302f37;
+      --toc-highlight: rgb(255 94 163);
     }
   }
