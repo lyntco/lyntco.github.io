@@ -21,9 +21,19 @@
 /* FOR DARK THEME */
 @media (prefers-color-scheme: light) {
     html[data-mode=dark] {
-      --main-bg: rgb(39 37 42);
+      --main-bg: #202025;
       --link-color: rgb(244 52 150);
       --sidebar-bg: #302f37;
+      --sidebar-hover-bg: #3d3b47;
       --toc-highlight: rgb(255 94 163);
+      --card-header-bg: #2d2c33;
+      --card-bg: #232228;
+      --card-hover-bg: #464d51;
     }
   }
+
+@media (prefers-color-scheme: light) {
+    html[data-mode=dark] #archives li:nth-child(odd) {
+        background-image: linear-gradient(to left, #202025, rgb(48 48 55), rgb(48 48 55), rgb(48 48 55), #202025);
+    }
+}
