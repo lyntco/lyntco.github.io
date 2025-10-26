@@ -1,6 +1,6 @@
 ---
 title: A beginner game Part 1
-date: 2025-10-26 11:34:00 +1100
+date: 2025-10-26 15:00:00 +1100
 published: true
 image: /assets/img/2025-10-26/title.png
 categories: [Gamedev, Beginner Projects]
@@ -46,7 +46,6 @@ I love this constraint a lot, because theming is a very fun exercise for me. The
 
 This one was an interesting one and one I feel reluctant to try, mainly because I do have a background in art but not wanting to almost tells me I should be doing it! I know I have had problems with presenting work I think is "ugly" but it is to try a new process, not to make something beautiful.
 
-
 To expand on what this means if you haven't watched the video: make a version of the art you envision with circles only, then another version with squares only, and then a version with triangles only. It's not going to look great and its probably going to be pretty awkward but I do feel that is the point.
 Additionally it can only be black and white, no greys in between.
 
@@ -89,7 +88,7 @@ This is the bare bones:
 
 Here is a video of the numbers doing something:
 
-{% include embed/video.html src='{{ site.url }}/assets/img/2025-10-26/engine02.mp4' %}
+{% include embed/video.html src='/assets/img/2025-10-26/engine02.mp4' %}
 
 It's not very exciting but it is doing what I want with the numbers in relation to time!
 
