@@ -78,10 +78,11 @@ Speaking of which, a wick is involved in an oil lamp but it seems it's more for 
 ### Lets get to the making
 
 ![Desktop View]({{ site.url }}/assets/img/2025-10-26/engine01.png){: .right w="350" h="200" }
-If it's not clear, I am writing this _as I work on the project_ so this blog is actually my real time thoughts, with so far very little editing. So far I've started a Unity Project in version 6.2 and made a square sprite object and a UI Toolkit interface, because I actually like the new UI after wrangling it a bit for the Vampire Survivors tutorial I've been following.
+If it's not clear, I am writing this as I work on the project so this blog is actually my real time thoughts, with so far very little editing. So far I've started a Unity Project in version 6.2 and made a square sprite object and a UI Toolkit interface, because I actually like the new UI after wrangling it a bit for the Vampire Survivors tutorial I've been following.
 It's actually very close to html/css, and the binding, while it can be kind of confusing is actually much more simple than I had originally thought. I may do a blog post on that because watching all the tutorials on it did not enlighten me at all. I had to go and look at example projects to really understand.
 
 This is the bare bones:
+
 ![Desktop View]({{ site.url }}/assets/img/2025-10-26/code01.png){: w="350" h="200" }
 
 ![Desktop View]({{ site.url }}/assets/img/2025-10-26/code02.png){: .right w="350" h="800" } I guess the next part is to make some tick down counters because the fuel will be used up, and it will get sootier. It will also get "bored". The code is timers that add or remove a number to slowly grow or decay a value, so what I have here is that every 12 seconds 5 gets removed from the current oil, which starts at 100.
@@ -120,7 +121,7 @@ That lets me place the reset functions into the `Interface.cs` like so:
 
 And when I test it, the right buttons reset the right values:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/code06.png){: w="350" }
+![Desktop View]({{ site.url }}/assets/img/2025-10-26/engine05.gif){: w="350" }
 
 This is pretty good so far. I haven't had to look up any tutorials yet, but i have looked at my old code to get the code for the singleton pattern and the setting of button functions.
 
