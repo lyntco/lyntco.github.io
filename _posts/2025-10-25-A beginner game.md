@@ -4,7 +4,7 @@ date: 2025-10-26 15:00:00 +1100
 published: true
 image: /assets/img/2025-10-26/title.png
 categories: [Gamedev, Beginner Projects]
-tags: [gamedev, IndieGameClinic, prototypes, beginner gamedev, unity, unity UI toolkit]
+tags: [gamedev, IndieGameClinic, prototypes, beginner gamedev, Unity, Unity UI Toolkit]
 ---
 
 I've been watching a lot of videos from the Indie Game Clinic recently and last night watched the video in which Joe references the beginner games he set up for the university course he used to run ([youtube.com/watch?v=cf9xDdPXOA0](https://www.youtube.com/watch?v=cf9xDdPXOA0)).
@@ -65,7 +65,7 @@ I dreamed about this last night and remember that I went to start this project w
 
 #### But what does an oil lamp need?
 
-As far as I can see, and Oil lamp needs oil, and a wick. It probably needs oxygen so the flame doesn't get snuffed. But that's fairly pedestrian. What if this lamp was alive? What would the marker of happiness be? Probably how big the flame is. Maybe a lamp doesn't need to be cleaned if it's glass and gets covered with soot. The room could be poorly lit if the lamp is dirty. Maybe you need to turn the wick every now and then to make sure there is enough wick to burn. Watching a video on oil lamps is teaching me how they work in real life. But as Gabe Newell said, ["Realism is not fun"](https://www.youtube.com/watch?v=MGpFEv1-mAo). I have room to mve in this and I don't want to work on this for that much longer so I'll make a decision.
+As far as I can see, and Oil lamp needs oil, and a wick. It probably needs oxygen so the flame doesn't get snuffed. But that's fairly pedestrian. What if this lamp was alive? What would the marker of happiness be? Probably how big the flame is. Maybe a lamp doesn't need to be cleaned if it's glass and gets covered with soot. The room could be poorly lit if the lamp is dirty. Maybe you need to turn the wick every now and then to make sure there is enough wick to burn. Watching a video on oil lamps is teaching me how they work in real life. But as Gabe Newell said, ["Realism is not fun"](https://www.youtube.com/watch?v=MGpFEv1-mAo). I have room to move in this and I don't want to work on this for that much longer so I'll make a decision.
 The needs can be these:
 
 - Fuel
@@ -85,9 +85,11 @@ This is the bare bones:
 
 ![Desktop View]({{ site.url }}/assets/img/2025-10-26/code01.png){: w="350" h="200" }
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/code02.png){: .right w="350" h="800" } I guess the next part is to make some tick down counters because the fuel will be used up, and it will get sootier. It will also get "bored". The code is timers that add or remove a number to slowly grow or decay a value, so what I have here is that every 12 seconds 5 gets removed from the current oil, which starts at 100.
+I guess the next part is to make some tick down counters because the fuel will be used up, and it will get sootier. It will also get "bored". The code is timers that add or remove a number to slowly grow or decay a value, so what I have here is that every 12 seconds 5 gets removed from the current oil, which starts at 100.
 
-Here is a video of the numbers doing something:
+![Desktop View]({{ site.url }}/assets/img/2025-10-26/code02.png){: w="350" h="800" } 
+
+And here is a video of the numbers doing something:
 
 {% include embed/video.html src='/assets/img/2025-10-26/engine02.mp4' %}
 
