@@ -2,7 +2,7 @@
 title: A beginner game Part 1
 date: 2025-10-26 15:00:00 +1100
 published: true
-image: /assets/img/2025-10-26/title.png
+image: /assets/img/posts/2025-10-26/title.png
 categories: [Gamedev, Beginner Projects]
 tags: [gamedev, IndieGameClinic, prototypes, beginner gamedev, Unity, Unity UI Toolkit]
 ---
@@ -77,21 +77,21 @@ Speaking of which, a wick is involved in an oil lamp but it seems it's more for 
 
 ### Lets get to the making
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/engine01.png){: .right w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/engine01.png){: .right w="350" h="200" }
 If it's not clear, I am writing this as I work on the project so this blog is actually my real time thoughts, with so far very little editing. So far I've started a Unity Project in version 6.2 and made a square sprite object and a UI Toolkit interface, because I actually like the new UI after wrangling it a bit for the Vampire Survivors tutorial I've been following.
 It's actually very close to html/css, and the binding, while it can be kind of confusing is actually much more simple than I had originally thought. I may do a blog post on that because watching all the tutorials on it did not enlighten me at all. I had to go and look at example projects to really understand.
 
 This is the bare bones:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/code01.png){: w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/code01.png){: w="350" h="200" }
 
 I guess the next part is to make some tick down counters because the fuel will be used up, and it will get sootier. It will also get "bored". The code is timers that add or remove a number to slowly grow or decay a value, so what I have here is that every 12 seconds 5 gets removed from the current oil, which starts at 100.
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/code02.png){: w="350" h="800" } 
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/code02.png){: w="350" h="800" } 
 
 And here is a video of the numbers doing something:
 
-{% include embed/video.html src='/assets/img/2025-10-26/engine02.mp4' %}
+{% include embed/video.html src='/assets/img/posts/2025-10-26/engine02.mp4' %}
 
 It's not very exciting but it is doing what I want with the numbers in relation to time!
 
@@ -99,31 +99,31 @@ The next step to me seems like I should hook up the buttons to "address" the con
 
 So now I can rename my buttons on both the ID and the button display text:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/engine03.png){: w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/engine03.png){: w="350" h="200" }
 
 And now I can hook up the UI buttons to a new script with `Debug.Log`s for now:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/code03.png){: w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/code03.png){: w="350" h="200" }
 
 I like making new scripts for UI just to keep them separate, which is why I like using the UI toolkit instead of canvas. And if I go to test it, the logs are working when I click the buttons:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/engine04.png){: w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/engine04.png){: w="350" h="200" }
 
 So now I need the real functions to run. But I haven't written those yet, so I'll write it back in the `GameManager.cs`:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/code04.png){: w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/code04.png){: w="350" h="200" }
 
 These just reset the values back to the starting ones. At this point I also make the GameManager a singleton so I can access it in any script by plonking this in the onEnable:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/code05.png){: w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/code05.png){: w="350" h="200" }
 
 That lets me place the reset functions into the `Interface.cs` like so:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/code06.png){: w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/code06.png){: w="350" h="200" }
 
 And when I test it, the right buttons reset the right values:
 
-![Desktop View]({{ site.url }}/assets/img/2025-10-26/engine05.gif){: w="350" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-26/engine05.gif){: w="350" }
 
 This is pretty good so far. I haven't had to look up any tutorials yet, but i have looked at my old code to get the code for the singleton pattern and the setting of button functions.
 
