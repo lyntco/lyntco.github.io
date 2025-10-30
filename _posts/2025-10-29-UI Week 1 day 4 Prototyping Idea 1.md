@@ -151,4 +151,4 @@ My first port of call is to **fix the numbers** though. I may need to write a co
 
 I adjusted some other colors just for fun and got the numbers "working". It's actually kinda fudged, for some reason instead of multiplying my values by 100 like I expected, multiplying them byu 400 gives me my desired outcome. This is a prototype though so it's fine for now.
 
-It's not getting late for me so I'll wrap up for today. I certainly did not spend all my day doing this, I procrastinated a lot because it felt so daunting but I'm really glad I got what I got done today!
+It's not getting late for me so I'll wrap up for today. I certainly did not spend all my day doing this, I procrastinated a lot because it felt so daunting but I'm really glad I got what I got done today.
