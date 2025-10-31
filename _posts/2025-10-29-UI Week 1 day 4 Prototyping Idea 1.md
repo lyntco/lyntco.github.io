@@ -86,6 +86,8 @@ I watched a few Bobarista videos for research but after talking a bit with Mike,
 
 ## Prototype
 
+### Initial Visuals
+
 This is going to be pretty boring as a play by play if you know Unity basics. Feel free to scroll to the bottom if you just want to see what I ended with by the end of the entry.
 
 I start with a 3D project. I love the look of 2D pixel art but shadows and lighting are best in 3D.
@@ -104,6 +106,8 @@ Now to add the cup and get the to scripting.
 
 ![Desktop View]({{ site.url }}/assets/img/posts/2025-10-30/boba05.png){: w="500" }
 
+### Scripts
+
 What I need for the scripts to work:
 
 - A way to keep track what what different things are in the cup
@@ -121,6 +125,9 @@ Now with the smallest bit of code to get it working, with the click of a checkbo
 ![Desktop View]({{ site.url }}/assets/img/posts/2025-10-30/boba08.png){: .normal w="300" }
 
 Ideally I want the fill rate to ease into top speed and then ease out a tiny bit when it stops. I think I can add this after I get the lines animating.
+
+### UI Interaction
+
 I think I want to hook up the buttons first, so I'll make a second script for the UI specifically. Again, the `Debug.Log` on button click is the first step. Is unit testing a thing in GameDev?
 
 ![Desktop View]({{ site.url }}/assets/img/posts/2025-10-30/boba09.png){: w="400" }
@@ -132,6 +139,8 @@ At this point I hooked up the buttons so they set `isFilling` to `true` on a cli
 ![Desktop View]({{ site.url }}/assets/img/posts/2025-10-30/boba12.png){: .left w="300" }
 ![Desktop View]({{ site.url }}/assets/img/posts/2025-10-30/boba11.png){: .normal w="400" }
 ![Desktop View]({{ site.url }}/assets/img/posts/2025-10-30/boba13.gif){: .normal w="400" }
+
+### Hooking it all up
 
 So now I have to represent it with the UI kit elements. It might end up being fiddly and I might be better off representing it with a 3D Cylinder but I'll give it a go with this first because that's what I have and I'm not actually sure if I can put another "view" in Unity.
 
@@ -146,6 +155,8 @@ Already I am kinda having fun trying to make it not spill over and I wonder if I
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@stefanjohnturner/video/7209981991729515781" data-video-id="7209981991729515781" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@stefanjohnturner" href="https://www.tiktok.com/@stefanjohnturner?refer=embed">@stefanjohnturner</a> Boys will be boys 😂😅<a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a target="_blank" title="♬ original sound - Stefán John Turner" href="https://www.tiktok.com/music/original-sound-7209981967973387013?refer=embed">♬ original sound - Stefán John Turner</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
 My first port of call is to **fix the numbers** though. I may need to write a converter so it can multiply the values properly so the UI Toolkit elements can display the ingredients properly. I also realised after seeing the gif that the UI box BG is extremely close to the milk tea color so I'm changing that right away.
+
+### The first prototype
 
 ![Desktop View]({{ site.url }}/assets/img/posts/2025-10-30/boba15.gif){: w="400" }
 
