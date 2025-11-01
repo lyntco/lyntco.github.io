@@ -2,10 +2,10 @@
 title: Review of "30 Days from 0 Skill to Pro 3D Artist with Daz & Blender"
 date: 2025-10-24 00:00:00 +1100
 published: false
-permalink: coloso-lloull_aroll
+permalink: review-coloso-lloull_aroll
 image: /assets/img/2025-10-24/claw.gif
-categories: [Course Review, Coloso]
-tags: [art, 3d, Coloso, course review]
+categories: [Course Reviews, Coloso]
+tags: [art, 3d, Coloso, course/class review, LLouLL_Aroll]
 ---
 
 As a beginner this course really does deliver on this title - the only thing I have done with blender before this course is the blender donut tutorial on youtube!
