@@ -46,6 +46,9 @@ Because I don't like writing a lot next to bullet points I'll expand under here:
 ### "Orders please" 
 A slight inspiration from Papers Please: a day is limited time where you can gain more money from filling as many orders as possible. If you are skilled you can get a lot of money very early! I think I'd like there to be text bubbles almost like an iOS message bubble up on the left where they state their order.
 
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-31/papers-please.avif){: w="400" }
+_Papers please_
+
 ### Animations
 Right now the 3D doodads on the left are static. I wanted to notes some ideas down here on animation:
 
@@ -53,10 +56,17 @@ Right now the 3D doodads on the left are static. I wanted to notes some ideas do
 - customers moving in and out of frame to the stand and lining up
 - jugs tilting and filling a cup that match up with what you are doing on the side
 
+
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-31/boba-anim.gif){: w="400" }
+_This is a faked animation, I'm just moving it manually with the gizmo in the scene_
+
 ### Customer Name Label
 I got the inspiration for this one from when people were talking about their [misspelled names on Starbucks cups](https://www.buzzfeed.com/jonmichaelpoff/starbucks-name-fails). I'm not 100% sure on how this one would work, I was thinking you would have to write the name on the cup or label and it shows up on the cup, and you'd have to type their name out to call to them to retrieve their drink.
 
-Another way could be that the label is auto generated and you have to guess what the name is and type it back out to them. Voice recognition maybe a funny thing too!
+![Desktop View]({{ site.url }}/assets/img/posts/2025-10-31/starbucks.webp){: w="400" }
+_Latte for Gross!_
+
+Another way could be that the label is auto generated and you have to guess what the name is and type it back out to them. Voice recognition may be a funny thing too!
 
 
 All in all I think the new ideas are additions but changing the player interaction is an iteration and I think I need to be iterating rather than adding at the moment! So I'll be focusing on pouring with sliders and adding indicators first up.
