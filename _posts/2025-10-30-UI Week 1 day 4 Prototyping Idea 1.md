@@ -47,7 +47,7 @@ You start with a Boba Stand and a dream to make an Empire of Boba!
 
 I asked for a bit of feedback on the initial ideas, and one of my friends linked me this video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KePsEzN-IAM?si=No0rIrrl-EF9nfKF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include embed/youtube.html id='KePsEzN-IAM' %}
 
 I like this a lot and it may be beneficial to have a daily goal to reach visible on the screen most of the time as a helpful indicator to see if they have passed/failed the checks to know if they can open up to the next stage.
 
