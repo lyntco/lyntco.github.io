@@ -1,6 +1,6 @@
 ---
 title: Ultimate Indie - Week 2 day 2 Prototyping Boba Tycoon continued
-date: 2025-11-04 00:28:00 +1100
+date: 2025-11-04 21:18:00 +1100
 published: true
 image: /assets/img/posts/2025-11-03/boba-stock.gif
 categories: [Gamedev, Ultimate Indie]
