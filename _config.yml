@@ -19,7 +19,7 @@ author: strawdoll
 tagline: Gamedev and art # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A process blog on game dev and art. 
+  A process blog on game dev and art.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -151,6 +151,9 @@ paginate: 10
 
 # The base URL of your site
 baseurl: ""
+
+plugins:
+  - jemoji
 
 # ------------ The following options are not recommended to be modified ------------------
 
