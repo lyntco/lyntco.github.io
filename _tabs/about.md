@@ -19,6 +19,10 @@ And around the end of Primary School to early high school before Deviantart I wa
 
 Somewhere in the later end of my primary school I made the school's website! I don't think many adults at the school knew how to do it but somehow I offered to help and did a lot of the small site that it ended up being.
 
+Before the school website, I was watching my dad play around with html and websites, and I learn to rip flash games off sites and display them on my own local pages, like a small collection. I was already playing stuff like Neopets and the Sims around or before this, and even before there was Mystic Towers and Museum Madness and Zork and other games that came on those Windows 98 samplers.
+
+I guess the earliest things before this I can remember is drawing bad Sailor Moon drawings and Disney and sending it in to Saturday Disney hoping they'd show it on TV. And home karaoke with my family!
+
 I enjoy a lot of different things and I will probably write about more than just Game Dev here.
 
 Also, I'm married to [Cooptayto](https://scoutski.github.io/){:target="_blank"}, you can check out his blog on the Ultimate Indie program blog there too.
