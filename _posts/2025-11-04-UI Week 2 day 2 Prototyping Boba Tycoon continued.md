@@ -5,7 +5,6 @@ published: true
 image: /assets/img/posts/2025-11-03/boba-stock.gif
 categories: [Gamedev, Ultimate Indie]
 tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon]
-furigana: true
 ---
 
 Back to work: my main focus is to get the slider working how I want. I think I will also get the buttons to be selecting the ingredient rather than filling it and have the slider do the pour.
@@ -69,7 +68,7 @@ It's easy to get side tracked when you are faced with an unknown 😮‍💨 I d
 
 I think custom ui elements are the way to go because it's not actually a 1:1 behaviour of a slider that I'm after. I wish there was some easier way to modify the base components. It's okay though, I don't need it to do everything! 
 
-1. First I need to constrain the mouse to the space of teh VisualElement
+1. First I need to constrain the mouse to the space of the VisualElement
 2. And then I need to change a value with the moving up and down of the mouse
 3. And then I tie an element to move with it
 4. and the finally, I hide the mouse on holding the pointer down
