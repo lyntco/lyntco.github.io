@@ -4,7 +4,7 @@ date: 2025-11-04 21:18:00 +1100
 published: true
 image: /assets/img/posts/2025-11-03/boba-stock.gif
 categories: [Gamedev, Ultimate Indie]
-tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon]
+tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon, process]
 ---
 
 Back to work: my main focus is to get the slider working how I want. I think I will also get the buttons to be selecting the ingredient rather than filling it and have the slider do the pour.
@@ -49,7 +49,7 @@ Often when I run into a problem, breaking it down into smaller things helps. Rig
 
 To be able to click and hold and drag an element up a track up or down, and once released to ease back to 0. It can probably just be a regular `VisualElement` with event callbacks registered.
 
-I am also not 100% sold on this one slider so Ive added the multi ones on the side for my to test out myself as is easy to implement.
+I am also not 100% sold on this one slider so I've added the multi ones on the side for my to test out myself as is easy to implement.
 
 ![Desktop View]({{ site.url }}/assets/img/posts/2025-11-04/boba-sliders01.png){: w="400" }
 _Sliders everywhere_

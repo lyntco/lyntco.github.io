@@ -4,7 +4,7 @@ date: 2025-10-31 14:48:00 +1100
 published: true
 image: /assets/img/posts/2025-10-30/boba15.gif
 categories: [Gamedev, Ultimate Indie]
-tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon]
+tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon, feedback]
 ---
 
 My blog broke last night but I found a [Github issue](https://github.com/cotes2020/jekyll-theme-chirpy/issues/968) this morning where someone had a similar problem so all I had to do was change my Pages Source to Github Actions instead of from a branch.

@@ -4,7 +4,7 @@ date: 2025-11-03 20:28:00 +1100
 published: true
 image: /assets/img/posts/2025-11-03/title.jpg
 categories: [Gamedev, Ultimate Indie]
-tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon]
+tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon, process]
 ---
 
 At this point I have decided to stick with this idea and shelf the other two for this program. They may come back in a different form one day! I have been half writing entries but not finishing them the past couple of days, my bad sleep is making me a zombie so I'm trying to sleep better so I can have a playable prototype to get some more feedback.

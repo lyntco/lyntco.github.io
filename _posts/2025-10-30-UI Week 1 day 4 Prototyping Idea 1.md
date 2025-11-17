@@ -4,7 +4,7 @@ date: 2025-10-30 22:48:00 +1100
 published: true
 image: /assets/img/posts/2025-10-29/boba.jpg
 categories: [Gamedev, Ultimate Indie]
-tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon]
+tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon, process]
 ---
 I'm up to prototyping *Boba tycoon* and I actually found having a process blog while I figure stuff out to be pretty helpful. 
 
