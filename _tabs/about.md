@@ -23,6 +23,6 @@ Before the school website, I was watching my dad play around with html and websi
 
 I guess the earliest things before this I can remember is drawing bad Sailor Moon drawings and Disney and sending it in to Saturday Disney hoping they'd show it on TV. And home karaoke with my family!
 
-I enjoy a lot of different things and I will probably write about more than just Game Dev here.
+I enjoy a lot of different things and I will probably write about more than just Game Dev here. I'll post mostly process entries - me writing as I figure stuff out, and then if I get good enough and people ask questions I will add tutorials.
 
 Also, I'm married to [Cooptayto](https://scoutski.github.io/){:target="_blank"}, you can check out his blog on the Ultimate Indie program blog there too.
