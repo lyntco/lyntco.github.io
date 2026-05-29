@@ -1,5 +1,5 @@
 ---
-title: Gamedev: the Great Reset
+title: "Gamedev: the Great Reset"
 date: 2026-05-29 14:43:00 +1100
 published: true
 image: /assets/img/posts/2026/05-may/2026-05-29/title.png
