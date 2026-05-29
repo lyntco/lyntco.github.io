@@ -31,7 +31,7 @@ So I just want to finish a damn game. And get used to finishing them, and not pr
 
 And because I like writing this blog because it helps me think, and since I have been introduced to the idea that [Thinking is Writing](https://www.henrikkarlsson.xyz/p/writing-to-think), I notice that when I write down my thoughts (typing or handwriting but I much prefer handwriting) I become more _focused_, less fuzzy or frazzled, and I find myself in Distractionland much much less. Distractionland seems fun but you can stay there forever and never get a single bit of progress out of it. When I really examine Distractionland, it is more of a numbing feeling than a fun feeling. When I write, I feel like I am experiencing my thoughts and feelings more than I am looking outwards for something else to tell me how to feel.
 
-![Desktop View]({{ site.url }}/assets/img/posts/2026/05-may/2026-05-29/gam1.png){: w="350" h="200" }
+![Desktop View]({{ site.url }}/assets/img/posts/2026/05-may/2026-05-29/game1.png){: w="350" h="200" }
 
 That was a side note. What I wanted to say was, I'm coming back to this blog to write my process as I do these 20 games. Who knows how long they will take but I don't want to rush them, and I don't want to drag them out either. The writing helps me focus and ground my thoughts instead of having loose worries fling my thoughts around. And even as I choose the first game, I feel resistance to choosing Pong instead of Flappy bird. 
 
