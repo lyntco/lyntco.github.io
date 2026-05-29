@@ -2,7 +2,7 @@
 title: Ultimate Indie - Week 1 day 5 Prototyping Boba Tycoon continued
 date: 2025-10-31 14:48:00 +1100
 published: true
-image: /assets/img/posts/2025-10-30/boba15.gif
+image: /assets/img/posts/2025/2025-10-30/boba15.gif
 categories: [Gamedev, Ultimate Indie]
 tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon, feedback]
 ---
@@ -46,7 +46,7 @@ Because I don't like writing a lot next to bullet points I'll expand under here:
 ### "Orders please" 
 A slight inspiration from Papers Please: a day is limited time where you can gain more money from filling as many orders as possible. If you are skilled you can get a lot of money very early! I think I'd like there to be text bubbles almost like an iOS message bubble up on the left where they state their order.
 
-![Desktop View]({{ site.url }}/assets/img/posts/2025-10-31/papers-please.avif){: w="400" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025/2025-10-31/papers-please.avif){: w="400" }
 _Papers please_
 
 ### Animations
@@ -57,13 +57,13 @@ Right now the 3D doodads on the left are static. I wanted to notes some ideas do
 - jugs tilting and filling a cup that match up with what you are doing on the side
 
 
-![Desktop View]({{ site.url }}/assets/img/posts/2025-10-31/boba-anim.gif){: w="400" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025/2025-10-31/boba-anim.gif){: w="400" }
 _This is a faked animation, I'm just moving it manually with the gizmo in the scene_
 
 ### Customer Name Label
 I got the inspiration for this one from when people were talking about their [misspelled names on Starbucks cups](https://www.buzzfeed.com/jonmichaelpoff/starbucks-name-fails). I'm not 100% sure on how this one would work, I was thinking you would have to write the name on the cup or label and it shows up on the cup, and you'd have to type their name out to call to them to retrieve their drink.
 
-![Desktop View]({{ site.url }}/assets/img/posts/2025-10-31/starbucks.webp){: w="400" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025/2025-10-31/starbucks.webp){: w="400" }
 _Latte for Gross!_
 
 Another way could be that the label is auto generated and you have to guess what the name is and type it back out to them. Voice recognition may be a funny thing too!

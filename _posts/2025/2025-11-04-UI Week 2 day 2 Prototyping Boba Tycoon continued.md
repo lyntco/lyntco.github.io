@@ -2,7 +2,7 @@
 title: Ultimate Indie - Week 2 day 2 Prototyping Boba Tycoon continued
 date: 2025-11-04 21:18:00 +1100
 published: true
-image: /assets/img/posts/2025-11-03/boba-stock.gif
+image: /assets/img/posts/2025/2025-11-03/boba-stock.gif
 categories: [Gamedev, Ultimate Indie]
 tags: [gamedev, Ultimate Indie, GameDev.tv, prototypes, boba tycoon, process]
 ---
@@ -51,7 +51,7 @@ To be able to click and hold and drag an element up a track up or down, and once
 
 I am also not 100% sold on this one slider so I've added the multi ones on the side for my to test out myself as is easy to implement.
 
-![Desktop View]({{ site.url }}/assets/img/posts/2025-11-04/boba-sliders01.png){: w="400" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025/2025-11-04/boba-sliders01.png){: w="400" }
 _Sliders everywhere_
 
 Oddly each slider seems to stop the other ones from pouring, which is not intended. I think it would be an extremely high skill level to get them pouring all together and match a recipe.
@@ -61,7 +61,7 @@ I also found a couple of articles that talk about hiding the cursor and [locking
 I also grabbed some royalty free sounds from [Pixabay](https://pixabay.com/) because I was feeling that the silence was a little lonely :joy: My idea for bgm is just some cute lo-fi and some simple SFX like cha ching! for when you seal the cup and an extra noise for if you get a tip. I deliberately did not try to find the "best" but more like the first one I liked I took. These are all placeholders so they don't need that much care!
 
 
-{% include embed/video.html src='/assets/img/posts/2025-11-04/boba-sounds.mp4' %}
+{% include embed/video.html src='/assets/img/posts/2025/2025-11-04/boba-sounds.mp4' %}
 _Lofi was the vibe I wanted_
 
 It's easy to get side tracked when you are faced with an unknown 😮‍💨 I do think I need to fix up these sliders, I really want the let go to make the slider decay on its own. I sent a current build to Mike and he said he thinks there needs to be an off button, but he loves that you can pour many ingredients at a time. This could potentially get really hard with more toppings in the drink order.
@@ -85,4 +85,4 @@ All while trying to figure out this custom slider, I added:
 
 Most of this I did not have on the list up top. There is always a lot to do 😅 I should be able to get on it tomorrow with the list above. For now enjoy the main menu screen I made:
 
-![Desktop View]({{ site.url }}/assets/img/posts/2025-11-04/boba-menu.png){: w="400" }
+![Desktop View]({{ site.url }}/assets/img/posts/2025/2025-11-04/boba-menu.png){: w="400" }
