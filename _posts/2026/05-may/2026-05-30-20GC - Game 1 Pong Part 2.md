@@ -1,6 +1,6 @@
 ---
 title: "20 Game Challenge Game 1: Pong Part 2"
-date: 2026-05-30 17:43:00 +1100
+date: 2026-05-30 21:43:00 +1100
 published: true
 image: /assets/img/posts/2026/05-may/2026-05-39/godot-02.gif
 categories: [Gamedev, 20 Games Challenge]
@@ -34,3 +34,26 @@ I _think_ what I want to do is apply a force to the ball at the start of the gam
 And it mostly works - it moves the ball. However, there is a problem: it pushes the paddle when it hits it.
 
 ![Desktop View]({{ site.url }}/assets/img/posts/2026/05-may/2026-05-30/godot-02.gif){: w="350" h="200" }
+
+The guide I mentioned earlier says that by default, a CharacterBody2D moved with move_and_collide() will not push any RigidBody2D it collides with. 
+What? That is kinda strange and not what I'd expect. At least I know this now! If I use move_and_slide() it doesn't move it quite as much, bit it still does and it shouldn't at all.
+
+I have decided to force it back to its position by storing the start x position and updating it to be that every frame.
+
+![Desktop View]({{ site.url }}/assets/img/posts/2026/05-may/2026-05-30/godot-03.png){: w="350" h="200" }
+
+Surely there is a better way but for now it works. And the ball is bouncing off the paddles, it kinda seems like the paddles have a bit of bouncy feedback now which is kinda cool.
+
+![Desktop View]({{ site.url }}/assets/img/posts/2026/05-may/2026-05-30/godot-04.gif){: w="350" h="200" }
+
+Next problems: when the ball hits a top or bottom wall, it bounces perfectly vertically, meaning the game will never end, and the speed of the ball is really inconsistent.
+
+## Fixing the balls bounce off the top and bottom
+
+At this point I will mention I added a physics material to the Ball RigidBody2d and added bounce. Otherwise it will continue to push the paddle:
+
+![Desktop View]({{ site.url }}/assets/img/posts/2026/05-may/2026-05-30/godot-05.png){: w="350" h="200" }
+
+I actually have a inkling that a Rigidbody2d will add these extra things I have to write, like fixing the speed, or fixing the angle of bounce. I want to try this with a Character2D before I try those. I found a [suggestion](https://www.reddit.com/r/godot/comments/16sl37f/comment/k2a39p0/) from someone asking a question on reddit that seems like it may be what I need.
+
+I'll follow this tomorrow as it's 10pm! Didnt get too much time on it today but I want to do a bit by bit daily.
