@@ -2,7 +2,7 @@
 title: "20 Game Challenge Game 1: Pong Part 2"
 date: 2026-05-30 21:43:00 +1100
 published: true
-image: /assets/img/posts/2026/05-may/2026-05-39/godot-02.gif
+image: /assets/img/posts/2026/05-may/2026-05-30/godot-02.gif
 categories: [Gamedev, 20 Games Challenge]
 tags: [gamedev, 20 Games Challenge, Godot, beginner gamedev]
 ---
@@ -56,4 +56,4 @@ At this point I will mention I added a physics material to the Ball RigidBody2d 
 
 I actually have a inkling that a Rigidbody2d will add these extra things I have to write, like fixing the speed, or fixing the angle of bounce. I want to try this with a Character2D before I try those. I found a [suggestion](https://www.reddit.com/r/godot/comments/16sl37f/comment/k2a39p0/) from someone asking a question on reddit that seems like it may be what I need.
 
-I'll follow this tomorrow as it's 10pm! Didnt get too much time on it today but I want to do a bit by bit daily.
+I'll follow this tomorrow as it's 10pm! Didn't get too much time on it today but I want to do a bit by bit daily.
